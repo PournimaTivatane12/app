@@ -1,0 +1,21 @@
+Flask==2.3.3             # Web framework
+requests==2.31.0         # HTTP requests handling
+gunicorn==20.1.0         # Production server (if deploying on platforms like Heroku)
+pandas==2.1.1            # Data handling (if working with datasets)
+numpy==1.26.0            # Numerical computations (if used)
+
+
+pip install <package-name>
+
+pip freeze > requirements.txt
+
+SQLAlchemy==2.0.20
+psycopg2==2.9.7       # PostgreSQL database
+mysql-connector==8.1.0  # MySQL database
+
+Jinja2==3.1.2
+Flask-WTF==1.1.1      # For forms in Flask
+
+pytest==7.4.2         # For unit testing
+pylint==2.17.4        # For code linting
+
