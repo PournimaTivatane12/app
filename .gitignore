@@ -1,0 +1,75 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env/
+env/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Logs
+*.log
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Cache files
+.cache/
+*.egg-info/
+*.eggs/
+*.egg
+
+# IDE settings
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Test coverage
+htmlcov/
+.coverage
+*.cover
+*.py,cover
+
+# Distribution/packaging
+build/
+dist/
+*.wheel
+
+# PyInstaller
+*.spec
+
+# pytest
+.cache/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Miscellaneous
+*.tmp
+*.bak
+*.swp
+*.old
+
+# Ignore Git files
+.git/
+.gitignore
+
+git rm --cached <file>
+
+git commit -m "Update .gitignore"
